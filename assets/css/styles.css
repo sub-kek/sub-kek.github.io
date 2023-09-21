@@ -3,6 +3,8 @@
 body {
     background: #2a2a2a;
     overflow-x: hidden;
+    padding: 0;
+    margin: 0;
 }
 
 .header {
@@ -15,20 +17,8 @@ body {
     position: absolute;
 }
 
-.advantages {
-    background: rgba(0, 0, 0, 0.6) url('https://cdn.discordapp.com/attachments/744350458910605433/1071015517562871849/VWgDHOlO2f6fwEFnJeSKxjJFQAAAABJRU5ErkJggg.png') no-repeat center;
-    background-blend-mode: multiply;
-    background-size: cover;
-}
-
 .order {
-    background: rgba(0, 0, 0, 0.6) url('https://cdn.discordapp.com/attachments/744350458910605433/1071037259404562462/output-onlinegiftools.gif') no-repeat center;
-    background-blend-mode: multiply;
-    background-size: cover;
-}
-
-.review {
-    background: rgba(0, 0, 0, 0.6) url('https://cdn.discordapp.com/attachments/1088324147706347570/1099347136929333338/168217492667490821.jpeg') no-repeat center;
+    background: rgba(0, 0, 0, 0.6) url() no-repeat center;
     background-blend-mode: multiply;
     background-size: cover;
 }
@@ -164,7 +154,6 @@ nav {
     0 22px 18px rgba(0, 0, 0, 0.072),
     0 42px 33px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
-    backdrop-filter: blur(60px);
     overflow: hidden;
     border-radius: 10px;
     padding: 0 0;
@@ -174,8 +163,7 @@ nav {
 nav a {
     color: #dad9d9;
     position: relative;
-    margin: 0 0;
-    padding: 20px;
+    margin: 0 10px;
     font-size: 20px;
     display: block;
     text-align: center;
@@ -195,11 +183,6 @@ nav .link:hover {
     background: rgba(99, 98, 95, 0.2);
     cursor: pointer;
     transition: 0.2s;
-}
-
-body {
-    padding: 0;
-    margin: 0;
 }
 
 img {
