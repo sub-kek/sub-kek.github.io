@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+body {
+    background: #2a2a2a;
+    overflow-x: hidden;
+}
+
+.header {
+    background: rgba(0, 0, 0, 0.6) url('https://cdn.discordapp.com/attachments/1005908267333066914/1154291082444673055/2023-09-21_08.37.50.png') no-repeat center;
+    background-blend-mode: multiply;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: auto auto;
+    position: absolute;
+}
+
+.advantages {
+    background: rgba(0, 0, 0, 0.6) url('https://cdn.discordapp.com/attachments/744350458910605433/1071015517562871849/VWgDHOlO2f6fwEFnJeSKxjJFQAAAABJRU5ErkJggg.png') no-repeat center;
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.order {
+    background: rgba(0, 0, 0, 0.6) url('https://cdn.discordapp.com/attachments/744350458910605433/1071037259404562462/output-onlinegiftools.gif') no-repeat center;
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.review {
+    background: rgba(0, 0, 0, 0.6) url('https://cdn.discordapp.com/attachments/1088324147706347570/1099347136929333338/168217492667490821.jpeg') no-repeat center;
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.products {
+    padding-bottom: 0 !important;
+}
+
+.product-list {
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto auto;
+}
+
+.screen-block {
+    height: 100vh;
+    position: relative;
+}
+
+.content {
+    margin: auto auto;
+    padding: 150px 0;
+}
+
+.content * {
+    color: white;
+    text-align: center;
+}
+
+.header .content {
+    margin: 150px 0;
+    padding: 0 0;
+    width: 100vw;
+    position: absolute;
+    display: block;
+    top: 50%;
+    transform: translateY(-75%);
+}
+
+.header .content .title {
+    font-size: 100px;
+}
+
+.header .content .order-title {
+    margin-bottom: 12%;
+    font-size: 50px;
+}
+
+.inline-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto auto;
+}
+
+.container-block {
+    width: 80%;
+    margin: auto auto;
+}
+
+.inline-container .item {
+    margin: auto auto;
+}
+
+.inline-icon {
+    width: 100px;
+    float: left;
+    transform: translateY(-25%);
+    margin: 20px;
+}
+
+.block {
+    padding: 40px 0;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    float: top;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product * {
+    text-align: left;
+}
+
+.product li {
+    text-align: left;
+}
+
+.product s {
+    color: dimgrey;
+}
+
+.product img {
+    margin-top: 40px;
+    margin-bottom: -50px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+form {
+    margin-top: 100px;
+}
+
+form .input {
+    outline: none;
+    border-style: hidden;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 3px;
+    background-color: #2a2a2a;
+    text-align: left !important;
+}
+
+form textarea {
+    resize: none;
+}
+
+.description {
+    height: 10rem;
+    width: 30%;
+}
+
+nav {
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.034),
+    0 7px 5px rgba(0, 0, 0, 0.048),
+    0 13px 10px rgba(0, 0, 0, 0.06),
+    0 22px 18px rgba(0, 0, 0, 0.072),
+    0 42px 33px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(60px);
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 0 0;
+    margin: 20px;
+}
+
+nav a {
+    color: #dad9d9;
+    position: relative;
+    margin: 0 0;
+    padding: 20px;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav .title {
+    float: left;
+    background-color: rgba(99, 98, 95, 0.2);
+}
+
+nav .link {
+    float: right;
+}
+
+nav .link:hover {
+    background: rgba(99, 98, 95, 0.2);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+button {
+    display: block;
+    background-color: rgb(37, 99, 235);
+    font-weight: bold;
+    color: white;
+    padding: 15px 100px;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    transition: all .15s cubic-bezier(0.4, 0, 0.2, 1);
+    border: none;
+    cursor: pointer;
+    margin: 100px auto;
+    box-shadow: 0 0 1px rgb(0, 0, 0, 0.03),
+    0 0 1px rgb(0, 0, 0, 0.04),
+    0 0 2px rgb(0, 0, 0, 0.04),
+    0 0 4px rgb(0, 0, 0, 0.04),
+    0 0 5px rgb(0, 0, 0, 0.05),
+    0 0 8px rgb(0, 0, 0, 0.05),
+    0 0 11px rgb(0, 0, 0, 0.05),
+    0 0 17px rgb(0, 0, 0, 0.04),
+    0 0 27px rgb(0, 0, 0, 0.04),
+    0 0 100px rgb(0, 0, 0, 0.03);
+}
+
+button:hover {
+    background-color: rgb(31, 90, 251);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.065),
+    0 1px 3px rgba(0, 0, 0, 0.086),
+    0 4px 8px rgba(0, 0, 0, 0.098),
+    0 9px 16px rgba(0, 0, 0, 0.106),
+    0 17px 28px rgba(0, 0, 0, 0.11),
+    0 35px 55px rgba(0, 0, 0, 0.11);
+}
+
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #101010;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: #101010;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #696969;
+}
+
+.slider {
+    opacity: 0;
+    position: relative;
+    text-overflow: clip;
+    animation: slide-up ease-out 0.7s forwards;
+}
+
+.review-box s,a {
+    padding: 0 0 !important;
+}
+
+.review-box p {
+    margin: 0.5rem 0 !important;
+}
+
+@keyframes slide-up {
+    0% { transform: translateY(40px); }
+    100% { transform: translateY(0px); opacity: 1; }
+}
+
+.slider:nth-child(1) { animation-delay: 0.5s }
+.slider:nth-child(2) { animation-delay: 0.75s }
+.slider:nth-child(3) { animation-delay: 1.0s }
+
+@media screen and (min-width: 900px) {
+    .inline-container .item {
+        width: 40%;
+    }
+
+    .review-box {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .review-box * {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .avatar {
+        float: left;
+        vertical-align: middle;
+        position: relative;
+        margin: auto auto;
+        padding-left: 0;
+    }
+
+    .product {
+        width: 40%;
+        margin: auto auto;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    form .order-form {
+        display: flex;
+        justify-content: center;
+    }
+
+    form .order-input {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    nav a:first-child {
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    nav a:not(:first-child) {
+        display: none;
+    }
+
+    form .input {
+        width: 75% !important;
+    }
+}
