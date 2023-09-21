@@ -18,7 +18,7 @@ body {
 }
 
 .order {
-    background: rgba(0, 0, 0, 0.6) url() no-repeat center;
+    background: rgba(0, 0, 0, 0.6);
     background-blend-mode: multiply;
     background-size: cover;
 }
